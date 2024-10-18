@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Chamando o CSS externo -->
+     <link rel="stylesheet" href="src/css/estilo.css">
     <title>Loja de bicicletas</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Bike na trilha</h1>   <!-- Adicionando título ao site -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>  <!-- Adicionando estrutura home -->
+                <li><a href="contato.html">Contato</a></li> <!-- Adicionando estrutura Contanto -->
+                <li><a href="quiz.html">Quiz</a></li> <!-- Adicionando estrutura Quiz -->
+                <div class="mudarCor">   <!-- Estrutura div para adicionar os circulos e trocar de cor. -->
+                    <input type="button" class="cor" onclick="trocar('#ff0000')"/> <!-- Trocar cor para vermelho -->
+                    <input type="button" class="cor" onclick="trocar('#0000ff')"/> <!-- Trocar cor para azul -->
+                    <input type="button" class="cor" onclick="trocar('#800080')"/> <!-- Trocar cor para roxo -->
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <!-- Chamando o JavaScript Externo -->
+    <script src="src/js/script.js"></script>
 </body>
 </html>
