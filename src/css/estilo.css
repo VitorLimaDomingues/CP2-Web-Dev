@@ -1,0 +1,41 @@
+* {  /* reset da página */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {  /* Adicionando cor a página */
+    background: #fffafa;
+}
+
+header { 
+    display: flex;
+    height: 80px;
+    background: #f0ffff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 1.7rem;
+    gap: 0.7rem;
+}
+
+header nav ul a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header nav ul a:hover {
+    text-decoration: underline;
+    color: #dc143c;
+}
+
+.cor {
+    width: 20px;
+    border-radius: 100px;
+}
