@@ -14,7 +14,8 @@
             <ul>
                 <li><a href="index.html">Home</a></li>  <!-- Adicionando estrutura home -->
                 <li><a href="contato.html">Contato</a></li> <!-- Adicionando estrutura Contanto -->
-                <li><a href="quiz.html">Quiz</a></li> <!-- Adicionando estrutura Quiz -->
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="sobre.html">Sobre</a></li> <!-- Adicionando estrutura Quiz -->
                 <div class="mudarCor">   <!-- Estrutura div para adicionar os circulos e trocar de cor. -->
                     <input type="button" class="cor" onclick="trocar('#ff0000')"/> <!-- Trocar cor para vermelho -->
                     <input type="button" class="cor" onclick="trocar('#0000ff')"/> <!-- Trocar cor para azul -->
@@ -24,6 +25,31 @@
         </nav>
     </header>
     <hr>
+
+    <main>
+        <form id="form">
+            <fieldset>
+                <legend>Cadastre seus dados</legend>
+                <p>
+                    <label for="nome">Nome do usuário:</label>
+                    <input type="text" name="nome" id="nome">
+                </p>
+                <p>
+                    <label for="telefone">Telefone do usuário:</label>
+                    <input type="text" name="telefone" id="telefone" maxlength="15">
+                </p>
+                <p>
+                    <label for="email">Email do usuário:</label>
+                    <input type="text" name="email" id="email" maxlength="30">
+                </p>
+                <p id="1"></p>
+                <p id="2"></p>
+                <p id="3"></p>
+                <button type="submit" id="btn">Cadastrar</button>
+            
+            </fieldset>
+        </form>
+    </main>
 
     <!-- Chamando o JavaScript Externo -->
     <script src="src/js/script.js"></script>

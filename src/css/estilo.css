@@ -1,41 +1,71 @@
-* {  /* reset da página */
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {  /* Adicionando cor a página */
-    background: #fffafa;
-}
-
+/* Estilo do cabeçalho da página */
 header { 
-    display: flex;
-    height: 80px;
-    background: #f0ffff;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* Define o layout do cabeçalho como flexível */
+    height: 80px; /* Altura do cabeçalho */
+    background: #f0ffff; /* Cor de fundo do cabeçalho */
+    justify-content: space-between; /* Espaça os itens ao longo do cabeçalho */
+    align-items: center; /* Alinha verticalmente os itens ao centro */
 }
 
+/* Estilo da lista de navegação dentro do cabeçalho */
 header nav ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    padding: 1.7rem;
-    gap: 0.7rem;
+    display: flex; /* Exibe a lista como um layout flexível */
+    list-style: none; /* Remove os marcadores da lista */
+    align-items: center; /* Alinha os itens da lista verticalmente ao centro */
+    padding: 1.7rem; /* Espaçamento interno da lista */
+    gap: 0.7rem; /* Espaçamento entre os itens da lista */
 }
 
-header nav ul a{
-    color: #000;
-    text-decoration: none;
-    font-size: 1.2rem;
+/* Estilo dos links de navegação */
+header nav ul a {
+    color: #000; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    font-size: 1.2rem; /* Tamanho da fonte dos links */
 }
 
+/* Estilo para os links ao serem hover (quando o mouse passa sobre eles) */
 header nav ul a:hover {
-    text-decoration: underline;
-    color: #dc143c;
+    text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse */
+    color: #dc143c; /* Altera a cor do texto ao passar o mouse */
 }
 
+/* Estilo dos botões de troca de cor */
 .cor {
-    width: 20px;
-    border-radius: 100px;
+    width: 20px; /* Largura dos botões de cor */
+    border-radius: 100px; /* Bordas arredondadas para o formato de círculo */
+}
+
+/* Estilo do formulário */
+#form {
+    width: 400px; /* Largura do formulário */
+    height: 200px; /* Altura do formulário */
+    margin-left: 36%; /* Margem esquerda para centralizar o formulário */
+    margin-top: 100px; /* Margem superior */
+    margin-bottom: 100px; /* Margem inferior */
+    border-radius: 30px; /* Bordas arredondadas do formulário */
+    padding: 10px; /* Espaçamento interno do formulário */
+}
+
+/* Estilo dos campos de entrada do formulário */
+#nome, #telefone, #email {
+    margin-top: 10px; /* Margem superior dos campos de entrada */
+}
+
+/* Estilo do botão de envio do formulário */
+#btn {
+    width: 100px; /* Largura do botão */
+    height: 50px; /* Altura do botão */
+    background: #2f4f4f; /* Cor de fundo do botão */
+    border-radius: 50px; /* Bordas arredondadas do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    margin-top: 30px; /* Margem superior do botão */
+    margin-left: 150px; /* Margem esquerda do botão */
+    margin-bottom: 30px; /* Margem inferior do botão */
+}
+
+/* Estilo do botão ao ser hover */
+#btn:hover {
+    background: #800080; /* Altera a cor de fundo ao passar o mouse */
+    color: #000000; /* Altera a cor do texto ao passar o mouse */
+    border: 2px solid #ffffff; /* Adiciona uma borda branca ao passar o mouse */
 }
