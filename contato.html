@@ -27,30 +27,35 @@
     <hr>
 
     <main>
+        <!-- Formulário com ID 'form' que será usado para coletar dados do usuário -->
         <form id="form">
-            <fieldset>
-                <legend>Cadastre seus dados</legend>
+            <fieldset> <!-- Agrupa os elementos do formulário -->
+                <legend>Cadastre seus dados</legend> <!-- Título do grupo de campos do formulário -->
+                
                 <p>
-                    <label for="nome">Nome do usuário:</label>
-                    <input type="text" name="nome" id="nome">
+                    <label for="nome">Nome do usuário:</label> <!-- Rótulo para o campo de entrada 'nome' -->
+                    <input type="text" name="nome" id="nome"> <!-- Campo de entrada para o nome do usuário -->
                 </p>
+                
                 <p>
-                    <label for="telefone">Telefone do usuário:</label>
-                    <input type="text" name="telefone" id="telefone" maxlength="15">
+                    <label for="telefone">Telefone do usuário:</label> <!-- Rótulo para o campo de entrada 'telefone' -->
+                    <input type="text" name="telefone" id="telefone" maxlength="15"> <!-- Campo de entrada para o telefone com limite de 15 caracteres -->
                 </p>
+                
                 <p>
-                    <label for="email">Email do usuário:</label>
-                    <input type="text" name="email" id="email" maxlength="30">
+                    <label for="email">Email do usuário:</label> <!-- Rótulo para o campo de entrada 'email' -->
+                    <input type="text" name="email" id="email" maxlength="30"> <!-- Campo de entrada para o email com limite de 30 caracteres -->
                 </p>
-                <p id="1"></p>
-                <p id="2"></p>
-                <p id="3"></p>
-                <button type="submit" id="btn">Cadastrar</button>
-            
+                
+                <p id="1"></p> <!-- Parágrafo onde o nome do usuário será exibido após o envio do formulário -->
+                <p id="2"></p> <!-- Parágrafo onde o telefone do usuário será exibido após o envio do formulário -->
+                <p id="3"></p> <!-- Parágrafo onde o email do usuário será exibido após o envio do formulário -->
+                
+                <button type="submit" id="btn">Enviar</button> <!-- Botão para enviar o formulário -->
             </fieldset>
         </form>
     </main>
-
+    
     <!-- Chamando o JavaScript Externo -->
     <script src="src/js/script.js"></script>
 </body>

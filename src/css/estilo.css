@@ -1,3 +1,15 @@
+/* Reset na página */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Adicionando cor ao background do site */
+body {
+    background: #fffafa;
+}
+
 /* Estilo do cabeçalho da página */
 header { 
     display: flex; /* Define o layout do cabeçalho como flexível */
