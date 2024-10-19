@@ -81,3 +81,38 @@ header nav ul a:hover {
     color: #000000; /* Altera a cor do texto ao passar o mouse */
     border: 2px solid #ffffff; /* Adiciona uma borda branca ao passar o mouse */
 }
+
+.sobre_nos {
+    justify-content: center;
+    margin-left: 605px;
+}
+
+.sobre{
+    justify-content: center;
+    background-color: white;
+    color: black;
+
+}
+.texto{
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding: 5px;
+    justify-content: center;
+    display: inline-block;
+    word-spacing: 5px;
+    width: 50%;
+    display: flex;
+    border-radius: 20px;
+    margin: auto;
+}
+.image{
+
+
+    position: absolute;
+    top: 0px; /* Ajuste a posição vertical */
+    left: 50%; /* Centraliza a imagem horizontalmente */
+    transform: translateX(-50%); /* Para garantir o centro exato */
+    width: 80px; /* Diminui o tamanho da imagem */
+    z-index: 10; /* Para garantir que fique acima do texto */
+
+}
