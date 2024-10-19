@@ -84,7 +84,8 @@ header nav ul a:hover {
 
 .sobre_nos {
     justify-content: center;
-    margin-left: 900px;
+    margin-left: 20px;
+    display: flex;
 }
 
 .sobre {
