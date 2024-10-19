@@ -87,13 +87,14 @@ header nav ul a:hover {
     margin-left: 605px;
 }
 
-.sobre{
+.sobre {
     justify-content: center;
     background-color: white;
     color: black;
 
 }
-.texto{
+
+.texto {
     border: 2px solid black;
     margin-bottom: 20px;
     padding: 5px;
@@ -105,7 +106,8 @@ header nav ul a:hover {
     border-radius: 20px;
     margin: auto;
 }
-.image{
+
+.image {
 
 
     position: absolute;
@@ -115,4 +117,13 @@ header nav ul a:hover {
     width: 80px; /* Diminui o tamanho da imagem */
     z-index: 10; /* Para garantir que fique acima do texto */
 
+}
+
+.imagem {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 50px;
+    border: 2px solid black;
+    padding: 30px;
 }

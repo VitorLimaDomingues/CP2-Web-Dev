@@ -1,5 +1,5 @@
 // Adicionando um alert de bem vindo. 
-alert('Bem vindo ao site Bike na trilha')
+// alert('Bem vindo ao site Bike na trilha')
 
 // Trocar cor de fundo do site
 function trocar(cor){
